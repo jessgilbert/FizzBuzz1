@@ -63,11 +63,18 @@ public class Main {
         if (i % 3 == 0) {
             result = result + "Fizz";
         }
+
         if (i % 5 == 0) {
             result = result + "Buzz";
         }
         if (i % 7 == 0) {
             result = result + "Bang";
+        }
+        if (i % 11 == 0) {
+            result = result + "Bong";
+        }
+        if (i % 13 == 0) {
+            result = result + "Fezz";
         }
 
 
